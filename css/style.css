@@ -137,10 +137,13 @@ section{
 
 .home .image{
     flex:1 1 45rem;
+    
 }
 
 .home .image img{
     width: 100%;
+    border:var(--border);
+    border-radius: .5rem;
 }
 
 .home .content{
@@ -240,6 +243,8 @@ section{
 
 .about .row .image img{
     width: 100%;
+    border:var(--border);
+    border-radius: .5rem;
 }
 
 .about .row .content{
@@ -249,7 +254,7 @@ section{
 .about .row .content h3{
     color: var(--black);
     font-size: 4rem;
-    line-height: 1.8;
+    line-height: 1.2;
 }
 
 .about .row .content p{
